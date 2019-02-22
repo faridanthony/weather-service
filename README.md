@@ -14,8 +14,8 @@ The following will return the time and temperature for postal codes *33067* and 
 #### Input:
 ```
 const inputs = [
-    {'name': 'Coral Springs', postalCode: '33067'},
-    {'name': 'Los Angeles', postalCode: '90001'}
+    {'name': 'Coral Springs', postalCode: 33067},
+    {'name': 'Los Angeles', postalCode: 90001}
 ]
 ```
 
@@ -36,7 +36,7 @@ While this will return only the value for postal code *33067*:
 #### Input:
 ```
 const inputs = [
-    {'name': 'Coral Springs', postalCode: '33067'}
+    {'name': 'Coral Springs', postalCode: 33067}
 ]
 ```
 
